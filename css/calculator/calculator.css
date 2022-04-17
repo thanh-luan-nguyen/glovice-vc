@@ -1,0 +1,205 @@
+.outermost-container {
+  width: 100%;
+}
+
+.outermost-container .intro {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.outermost-container .intro h2 {
+  width: 42rem;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+
+.outermost-container .intro h3 {
+  margin-bottom: 0.5rem;
+}
+
+.outermost-container .main {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.outermost-container .main #disclaimer {
+  font-style: italic;
+  margin-bottom: 2rem;
+  text-align: center;
+  margin-top: 1.5rem;
+  font-weight: 600;
+}
+
+.outermost-container .main .upper {
+  width: 100%;
+  margin: 0 auto;
+  padding-inline: 4rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(0, 1fr))[4];
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1350px) {
+  .outermost-container .main .upper {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .outermost-container .main .upper {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+.outermost-container .main .upper div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.outermost-container .main .upper div label {
+  font-weight: 900;
+  margin: 1.75rem 0 0.5rem;
+}
+
+.outermost-container .main .upper div select,
+.outermost-container .main .upper div input {
+  min-width: 10rem;
+  width: 100%;
+  max-width: 15rem;
+}
+
+.outermost-container .main .upper div input {
+  height: 1.75rem;
+  border: 1px #a7a7a7 solid;
+  border-radius: 4px;
+  padding-left: 10px;
+  line-height: 1.75rem;
+}
+
+.outermost-container .main .middle {
+  padding: 1.5rem 0;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.outermost-container .main .middle button {
+  font-size: 1.25rem;
+  font-weight: 600;
+  background-color: #007000;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  height: unset;
+  line-height: 1rem;
+  padding: 0.625rem 4rem;
+}
+
+.outermost-container .main .middle button:hover {
+  background-color: #178317;
+}
+
+.outermost-container .main .lower {
+  width: 60%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .outermost-container .main .lower {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.outermost-container .main .lower div {
+  width: 45%;
+  min-width: 8rem;
+  max-width: 20rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .outermost-container .main .lower div {
+    width: 15rem;
+  }
+}
+
+.outermost-container .main .lower div label {
+  font-weight: 900;
+  margin: 1.75rem 0 0.5rem;
+}
+
+.outermost-container .main .lower div span {
+  height: 1.75rem;
+  border: 1px #a7a7a7 solid;
+  border-radius: 4px;
+  padding-left: 10px;
+  line-height: 1.75rem;
+  width: 100%;
+  text-align: center;
+  color: red;
+  font-weight: 700;
+}
+
+.outermost-container .description {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.outermost-container .description div {
+  line-height: 1.5;
+  margin: 2rem auto;
+  width: 70rem;
+  max-width: 100%;
+}
+
+.outermost-container .description div.computation {
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.outermost-container .description div.definition {
+  padding: unset;
+}
+
+.outermost-container .description div h2 {
+  margin-bottom: 0.5rem;
+}
+/*# sourceMappingURL=calculator.css.map */

@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="icon"
+      href="https://kj-glovicevc.com/img/logo.ico"
+      type="image/gif"
+    />
+    <!-- Title -->
+    <title>Glovice VC</title>
+    <link rel="stylesheet" href="https://kj-glovicevc.com/css/slick.css" />
+    <link rel="stylesheet" href="https://kj-glovicevc.com/css/reset.css" />
+    <link rel="stylesheet" href="https://kj-glovicevc.com/css/animate.css" />
+    <link rel="stylesheet" href="https://kj-glovicevc.com/css/common.css" />
+    <link rel="stylesheet" href="https://kj-glovicevc.com/css/sub.css" />
+    <script src="https://kj-glovicevc.com/js/jquery-3.4.1.min.js"></script>
+    <script src="https://kj-glovicevc.com/js/jquery.easing.1.3.min.js"></script>
+    <script src="https://kj-glovicevc.com/js/slick.js"></script>
+    <script src="https://kj-glovicevc.com/js/common.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Inconsolata:400,700|Montserrat:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://kj-glovicevc.com/css/flag-icon.css" />
+    <style>
+      @media screen and (max-width: 450px) {
+        .tradingview-widget-container {
+          display: none;
+        }
+      }
+
+      .neonText-RE {
+        font-weight: bold;
+        color: #fff;
+      }
+
+      .forex .content-02 .content-title {
+        font-weight: 600;
+      }
+
+      .forex .content-03 {
+        padding-top: 0px;
+        padding-bottom: 40px;
+      }
+
+      .forex .content-01 {
+        padding-top: 50px;
+      }
+
+      .forex .content-01 .content-text {
+        margin-bottom: 48px;
+      }
+
+      .forex .content-03 .content-title {
+        color: #000;
+        font-weight: 600;
+        font-size: 30px;
+        margin-bottom: 40px;
+        margin-top: 40px;
+      }
+
+      .forex .content-03 .content-list .title {
+        color: #08492d;
+      }
+
+      .forex .content-01 .content-text {
+        font-size: 30px;
+        color: #08492d;
+      }
+
+      .forex .content-04 .content-title {
+        margin-bottom: 0px;
+        font-weight: 600;
+      }
+
+      .forex .content-04 .content-part .title {
+        font-weight: 600;
+      }
+
+      .forex .content-02 .content-title {
+        font-size: 30px;
+      }
+
+      .forex .content-05 {
+        padding-top: 80px;
+        background-color: #9d9b9b3d;
+      }
+
+      .forex .content-04 {
+        padding-top: 50px;
+      }
+
+      .forex .content-04 .content-part .text {
+        font-weight: 600;
+        line-height: 1.33;
+      }
+
+      .visual-title {
+        padding-left: 0px;
+        padding-top: 186px;
+        padding-bottom: 200px;
+      }
+
+      #visual-up {
+        background: url(img/promotion/refer/anhbia.jpg) top center / cover
+          no-repeat;
+      }
+
+      .forex .content-05 .content-list li {
+        font-size: 20px;
+        line-height: 40px;
+      }
+
+      .forex .content-05 .content-text {
+        margin-bottom: 22px;
+      }
+
+      .forex .content-05 .content-title {
+        text-align: center;
+      }
+
+      #visual-down .visual-title {
+        width: 100%;
+        background: url(img/promotion/refer/anhbanner.jpg) top center/ cover
+          no-repeat;
+        height: 500px;
+      }
+      .forex .content-05 .content-title {
+        padding-top: 60px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <button type="button" class="allmenu_ctrl allmenu_open">
+      <em class="blind">TotalMenu Open</em>
+      <span></span>
+    </button>
+    <!-- allMenu -->
+    <aside id="allMenu">
+      <div class="frame">
+        <div class="allmenu_head">
+          <div class="allmenu-demo">
+            <a href="https://my.kj-glovicevc.com/demo-register" target="_blank">
+              Demo
+            </a>
+          </div>
+          <!-- // header-demo -->
+          <div class="allmenu-lang">
+            <a href="vi/forex.php" class="buttonlanguage">
+              <span class="" style="padding: 0px;"></span>
+              <span class="code">VIETNAM</span>
+            </a>
+          </div>
+          <button type="button" class="allmenu_ctrl allmenu_close">
+            <em class="blind">TotalMenu Close</em>
+            <span></span>
+          </button>
+        </div>
+        <div class="allmenu-user">
+          <a href="https://my.kj-glovicevc.com/login" target="_blank">Login</a>
+          <a href="https://my.kj-glovicevc.com/register" target="_blank">
+            Open Live Account
+          </a>
+        </div>
+        <!-- // header-user -->
+
+        <ul id="anb" class="anb-1dep">
+          <li>
+            <a class="anb-menu">Instrumentals</a>
+            <div>
+              <ul class="anb-2dep">
+                <li class="heading" style="color: black;">
+                  <a href="instrumentals.php">Instrumentals</a>
+                </li>
+                <li><a href="forex.php">Forex</a></li>
+                <li><a href="commodityfutures.php">Commodity Futures</a></li>
+                <li><a href="energies.php">Energies</a></li>
+                <li><a href="spotmetals.php">Metals</a></li>
+                <li><a href="spotindices.php">Spot Indices</a></li>
+                <li class="heading" style="color: black;">
+                  <a href="#">Account</a>
+                </li>
+                <li><a href="accounttypes.php">Account Types</a></li>
+              </ul>
+            </div>
+          </li>
+
+          <!-- <li><a class="anb-menu" href="platform.php">Platform</a> -->
+          <li>
+            <a class="anb-menu" href="#">Platform</a>
+            <div>
+              <ul class="anb-2dep">
+                <!-- <li class="heading" style="color: black;"><a href="#">Platform</a></li> -->
+                <li class="heading" style="color: black;">
+                  <a href="#">Trading</a>
+                </li>
+                <li><a href="mt4.php">Metatrader&nbsp;4</a></li>
+              </ul>
+              <ul class="anb-2dep">
+                <li class="heading" style="color: black;">
+                  <a href="#">PAMM / MAM</a>
+                </li>
+                <li><a href="pamm.php">PAMM</a></li>
+                <li><a href="mam.php">MAM</a></li>
+              </ul>
+            </div>
+          </li>
+
+          <li>
+            <a class="anb-menu">About Us</a>
+            <div>
+              <ul class="anb-2dep">
+                <li><a href="companyprofile.php">Company&nbsp;Profile</a></li>
+                <!-- <li><a href="Career.php">Career</a></li> -->
+              </ul>
+            </div>
+          </li>
+          <!-- <li><a class="anb-menu" href="Partnership.php">Partnership</a> -->
+          <li>
+            <a class="anb-menu" href="#">Partnership</a>
+            <div>
+              <ul class="anb-2dep">
+                <li><a href="whitelabel.php">White&nbsp;Label</a></li>
+                <li><a href="introducing.php">IB Introducer</a></li>
+                <li><a href="affiliatesprogram.php">Affiliate</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a class="anb-menu">Education</a>
+            <div>
+              <ul class="anb-2dep">
+                <li><a href="webseminar.php">Web&nbsp;Seminar</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a class="anb-menu">Promotion</a>
+            <div>
+              <ul class="anb-2dep">
+                <li><a href="#">Welcome Bonus</a></li>
+                <li><a href="#">Best Trader's Special Gift</a></li>
+                <li><a href="#">Lottery Game</a></li>
+                <li><a href="#">Refer & Earn</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <!-- // allMenu -->
+
+    <div id="wrap">
+      <div id="header">
+        <div class="inner">
+          <h1 class="header-logo">
+            <a href="index.php">
+              <img
+                src="https://kj-glovicevc.com/img/main/header_logo.png"
+                alt=""
+              />
+            </a>
+          </h1>
+          <div class="header-menu">
+            <nav role="navigation">
+              <ul id="main-menu">
+                <li>
+                  <a href="#">Products</a>
+                  <div class="sub-menu">
+                    <ul class="menu-list">
+                      <li class="heading">
+                        <a href="instrumentals.php" aria-label="subemnu">
+                          Instrumentals
+                        </a>
+                      </li>
+                      <li>
+                        <a href="forex.php" aria-label="subemnu">Forex</a>
+                      </li>
+                      <li>
+                        <a href="commodityfutures.php" aria-label="subemnu">
+                          Commodity Futures
+                        </a>
+                      </li>
+                      <li>
+                        <a href="energies.php" aria-label="subemnu">Energies</a>
+                      </li>
+                      <li>
+                        <a href="spotmetals.php" aria-label="subemnu">Metals</a>
+                      </li>
+                      <li>
+                        <a href="spotindices.php" aria-label="subemnu">
+                          Spot Indices
+                        </a>
+                      </li>
+                    </ul>
+                    <ul class="menu-list">
+                      <li class="heading">
+                        <a href="#" aria-label="subemnu">Account</a>
+                      </li>
+                      <li><a href="accounttypes.php">Account Types</a></li>
+                      <!-- <li><a href="accounttypes.php">Account Types</a></li> -->
+                    </ul>
+                  </div>
+                </li>
+                <!-- <li><a href="platform.php">Platform</a> -->
+                <li>
+                  <a href="#">Platform</a>
+                  <div class="sub-menu">
+                    <ul class="menu-list">
+                      <!-- <li class="heading"><a aria-label="subemnu">Trading</a></li> -->
+                      <li>
+                        <a href="mt4.php" aria-label="subemnu">
+                          MetaTrader&nbsp;4
+                        </a>
+                      </li>
+                    </ul>
+                    <ul class="menu-list">
+                      <li class="heading">
+                        <a aria-label="subemnu">PAMM / MAM</a>
+                      </li>
+                      <li><a href="pamm.php" aria-label="subemnu">PAMM</a></li>
+                      <li><a href="mam.php" aria-label="subemnu">MAM</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <a>About Us</a>
+                  <div class="sub-menu">
+                    <ul class="menu-list">
+                      <li>
+                        <a href="companyprofile.php" aria-label="subemnu">
+                          Company&nbsp;Profile
+                        </a>
+                      </li>
+                      <!-- <li><a href="LegalDocument.php" aria-label="subemnu">Legal&nbsp;Document</a></li> -->
+                    </ul>
+                  </div>
+                </li>
+                <!-- <li><a href="partnership.php">Partnership</a> -->
+                <li>
+                  <a href="#">Partnership</a>
+                  <div class="sub-menu">
+                    <ul class="menu-list">
+                      <li>
+                        <a href="whitelabel.php" aria-label="subemnu">
+                          White&nbsp;Label
+                        </a>
+                      </li>
+                      <li>
+                        <a href="introducing.php" aria-label="subemnu">IB</a>
+                      </li>
+                      <li>
+                        <a href="affiliatesprogram.php" aria-label="subemnu">
+                          Affiliate
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <a>Education</a>
+                  <div class="sub-menu">
+                    <ul class="menu-list">
+                      <li>
+                        <a href="webseminar.php" aria-label="subemnu">
+                          Web&nbsp;Seminar
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <a>Promotion</a>
+                  <div class="sub-menu">
+                    <ul class="menu-list">
+                      <li>
+                        <a href="#" aria-label="subemnu">Welcome Bonus</a>
+                      </li>
+                      <li>
+                        <a href="#" aria-label="subemnu">
+                          Best Trader's Special Gift
+                        </a>
+                      </li>
+                      <li><a href="#" aria-label="subemnu">Lottery Game</a></li>
+                      <li><a href="#" aria-label="subemnu">Refer & Earn</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <!-- // header-menu -->
+          <div class="header-user">
+            <a href="https://my.kj-glovicevc.com/login" target="_blank">
+              Login
+            </a>
+            <a href="https://my.kj-glovicevc.com/register" target="_blank">
+              Open Live Account
+            </a>
+          </div>
+          <!-- // header-user -->
+          <div class="header-demo">
+            <a href="https://my.kj-glovicevc.com/demo-register" target="_blank">
+              Demo
+            </a>
+          </div>
+          <!-- // header-demo -->
+          <div class="header-lang">
+            <button type="button">ENGLISH</button>
+            <ul class="list">
+              <li>
+                <a href="#">
+                  <span
+                    class="flag-icon flag-icon-usa"
+                    style="padding: 0px;"
+                  ></span>
+                  <span class="code">English</span>
+                </a>
+              </li>
+              <li>
+                <a href="vi/index.php">
+                  <span
+                    class="flag-icon flag-icon-vnm"
+                    style="padding: 0px;"
+                  ></span>
+                  <span class="code">Vietnam</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- // header -->
+
+      <!-- container -->
+      <div class="container forex">
+        <!-- visual -->
+        <div id="visual-up">
+          <div class="inner motion">
+            <div class="visual-title ani-right delay10 neonText-RE">
+              REFER AND EARN
+            </div>
+            <!-- <div class="visual-forex-i1 ani-left delay2"><img src="img/promotion/special_gift.png"></div> -->
+          </div>
+        </div>
+        <!-- // visual -->
+
+        <div class="content content-01">
+          <div class="inner">
+            <div class="content-text" style="font-weight: 600;">
+              Earn $30 for every single friend or family member that you bring
+              to Glovice VC. Use your personalized referral link from your
+              portal and send it to your friends.
+            </div>
+          </div>
+        </div>
+        <!-- // content -->
+
+        <!-- <div class="fixed-bg">
+                <div class="content content-04">
+                    <div class="inner">
+                        <div class="content-title">Travel package detail:</div>
+                        <div class="content-part">
+                            <div class="title">History of the Forex market</div>
+                            <div class="text">
+                                Overseas package travel voucher worth 3,000 USD (for 4 people)<br>
+                                Singapore - Malaysia tour 5 days 4 nights / Conquer 2 destinations at once<br><br>
+							</div>
+                        </div>			
+                        <div class="content-part">
+                            <div class="content-color-button-new"><a href="https://my.kj-glovicevc.com/register">Start Trading Now</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+        <div class="content content-05">
+          <div class="inner">
+            <div class="content-title">
+              The more friends you invite, the more money you can get Super
+              Simple, Check it now!
+            </div>
+            <ul class="content-list">
+              <li>
+                Register or Login to your Glovice VC account and get your
+                referral link in the portal.
+              </li>
+              <li>Share the link with your friends</li>
+              <li>
+                Earn $30 once your referred friend reach 2 lots for trading
+                volume
+              </li>
+            </ul>
+            <div class="content-color-button" style="margin-top: 30px;">
+              <a href="https://my.kj-glovicevc.com/register">
+                Refer and earn now
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- // content -->
+
+        <div id="visual-down">
+          <div class="inner motion">
+            <div class="visual-title ani-right delay10 neonText-RE"></div>
+            <!-- <div class="visual-forex-i1 ani-left delay2"><img src="img/promotion/special_gift.png"></div> -->
+          </div>
+        </div>
+
+        <div class="content content-store">
+          <div class="inner">
+            <div class="inner-left">
+              <div class="inner-box">
+                <div class="inner-title">Glovice VC MT4</div>
+                <div class="inner-text">
+                  World most popular trading tool for trading CFDs. Try and make
+                  <br />
+                  your own automated Trading bot!
+                </div>
+                <div class="download-btn-main">
+                  <div>
+                    <a
+                      href="https://download.mql5.com/cdn/web/16391/mt4/kjglovice4setup.exe"
+                    >
+                      Download MT4 for Windows
+                    </a>
+                  </div>
+                  <!-- // <div><a href="#">Download MT4 App Mac</a></div> -->
+                </div>
+              </div>
+              <div class="inner-box">
+                <div class="inner-title">Available on Mobile</div>
+                <div class="inner-text">
+                  Monitor the markets on the go with our mobile application and
+                  <br />
+                  benefit from ultra-low latency trading infrastructure, award-
+                  <br />
+                  winning order execution and deep liquidity. Available for iOS
+                  and
+                  <br />
+                  Android devices.
+                </div>
+
+                <div class="store-btn">
+                  <a
+                    href="https://download.mql5.com/cdn/mobile/mt4/android?server=KJGlovice-Demo,KJGlovice-Live"
+                    class="google"
+                  >
+                    <span>Download on the</span>
+                    <em>Google Play</em>
+                  </a>
+                  <a
+                    href="https://download.mql5.com/cdn/mobile/mt4/ios?server=KJGlovice-Demo,KJGlovice-Live"
+                    class="apple"
+                  >
+                    <span>Download on the</span>
+                    <em>App Store</em>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- // inner-left -->
+            <div class="inner-right motion">
+              <img
+                class="ani-left delay1"
+                src="https://kj-glovicevc.com/img/main/mt4_pc_mobile.gif"
+                alt=""
+              />
+            </div>
+            <!-- // inner-right -->
+          </div>
+        </div>
+        <!-- // content -->
+      </div>
+      <!-- // container -->
+
+      <div id="footer">
+        <div class="inner">
+          <div class="footer-top">
+            <div class="footer-logo" style="width: 25%; float: left;">
+              <img
+                src="https://kj-glovicevc.com/img/main/footer_logo.png"
+                alt=""
+              />
+              <p
+                class="img-content"
+                style="
+                  padding-top: 35px;
+                  font-size: 14px;
+                  font-weight: 600;
+                  text-align: justify;
+                  color: #2a2a2a;
+                "
+              >
+                KJ Glovice VC Limited company number LL17443 is a registered
+                Money Broking company, with license no. MB/21/0079, duly
+                regulated under Labuan Financial Service Authority. Its
+                registered office is at The Villa, Lot U0965, Jalan Jumidar
+                Buyong, 87000, Federal Territory of Labuan, Malaysia.
+              </p>
+            </div>
+            <ul class="footer-nav">
+              <li>
+                <div class="nav-item">
+                  <a href="instrumentals.php">Instrumentals</a>
+                </div>
+                <ul class="nav-list">
+                  <li><a href="forex.php">Forex</a></li>
+                  <li><a href="commodityfutures.php">Commodity</a></li>
+                  <li><a href="spotindices.php">Indices</a></li>
+                  <li><a href="spotmetals.php">Metals</a></li>
+                  <li><a href="energies.php">Energy</a></li>
+                  <li><a href="accounttypes.php">Account</a></li>
+                </ul>
+              </li>
+              <li></li>
+              <li>
+                <div class="nav-item"><a>Education</a></div>
+                <ul class="nav-list">
+                  <li><a href="webseminar.php">Web Seminar</a></li>
+                </ul>
+              </li>
+              <li>
+                <!-- <div class="nav-item"><a href="partnership.php">Partnership</a></div> -->
+                <div class="nav-item"><a href="#">Partnership</a></div>
+                <ul class="nav-list">
+                  <li><a href="whitelabel.php">White Label Broker</a></li>
+                  <li><a href="introducing.php">Introducing Broker</a></li>
+                  <li>
+                    <a href="affiliatessrogram.php">Affiliates Program</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <!-- // footer-top -->
+
+          <div class="footer-info">
+            <div class="footer-info-title">RISK DISCLOSURE</div>
+            <div class="footer-info-text">
+              Forex and CFDs ("Contracts for Differences") are complex
+              instruments and involve significant risk due to leverage. It can
+              result in the loss of your invested capital. In addition, you may
+              be required to make further payments to keep the trades open.
+              Therefore, these products may not be suitable for everyone. Please
+              ensure you fully acknowledge how CFDs work and the high risks of
+              CFDs before trading.
+            </div>
+            <!-- <div class="footer-info-title"><a href="LegalDocument.php">LEGAL DOCUMENT</a></div> -->
+            <div class="footer-info-text">
+              <span>
+                <a
+                  href="https://kj-glovicevc.com/img/aboutus/aboutus-img/Privacy_Statement_en.pdf"
+                  download
+                >
+                  Privacy Statement
+                </a>
+              </span>
+              <span>
+                <a
+                  href="https://kj-glovicevc.com/img/aboutus/aboutus-img/AML_PS_en.pdf"
+                  download
+                >
+                  AML Policy
+                </a>
+              </span>
+              <span>
+                <a
+                  href="https://kj-glovicevc.com/img/aboutus/aboutus-img/Terms_And_Conditions_en.pdf"
+                  download
+                >
+                  Terms & Conditions
+                </a>
+              </span>
+              <!-- <span><a href="Career.html">Career</a></span> -->
+            </div>
+          </div>
+          <!-- // footer-info -->
+        </div>
+        <div class="footer-bottom">
+          <div class="inner">
+            <ul class="footer_sns">
+              <li class="item-01">
+                <a href="#">
+                  <img
+                    src="https://kj-glovicevc.com/img/main/footer_bottom_item_01.png"
+                    alt=""
+                  />
+                </a>
+              </li>
+              <li class="item-02">
+                <a href="#">
+                  <img
+                    src="https://kj-glovicevc.com/img/main/footer_bottom_item_02.png"
+                    alt=""
+                  />
+                </a>
+              </li>
+              <li class="item-03">
+                <a href="#">
+                  <img
+                    src="https://kj-glovicevc.com/img/main/footer_bottom_item_03.png"
+                    alt=""
+                  />
+                </a>
+              </li>
+              <li class="item-04">
+                <a href="#">
+                  <img
+                    src="https://kj-glovicevc.com/img/main/footer_bottom_item_04.png"
+                    alt=""
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- // footer-bottom -->
+      </div>
+      <!-- // footer -->
+    </div>
+    <!-- // wrap -->
+    <div class="dim"></div>
+    <script type="text/javascript">
+      var $zoho = $zoho || {}
+      $zoho.salesiq = $zoho.salesiq || {
+        widgetcode:
+          'b7a46b3af646b4df11935b71b2b89f7e30f497d5f73387e6e6122c8faf48121e',
+        values: {},
+        ready: function () {},
+      }
+      var d = document
+      s = d.createElement('script')
+      s.type = 'text/javascript'
+      s.id = 'zsiqscript'
+      s.defer = true
+      s.src = 'https://salesiq.zoho.com/widget'
+      t = d.getElementsByTagName('script')[0]
+      t.parentNode.insertBefore(s, t)
+      d.write("<div id='zsiqwidget'></div>")
+    </script>
+  </body>
+</html>
